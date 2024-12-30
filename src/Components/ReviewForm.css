@@ -36,3 +36,11 @@
   font-size: 0.7rem;
   margin-top: 0.4rem;
 }
+
+@media (max-width: 510px) {
+  .score-container svg {
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+}

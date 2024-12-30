@@ -37,3 +37,25 @@
 .active > svg {
   fill: #7076f4;
 }
+
+@media (max-width: 510px) {
+  .steps {
+    gap: 1rem;
+  }
+
+  .steps::after {
+    content: '';
+    width: 180px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 20px;
+  }
+
+  .step svg {
+    font-size: 1.2rem;
+  }
+
+  .step p {
+    font-size: 0.6rem;
+  }
+}
